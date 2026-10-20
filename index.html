@@ -1,0 +1,262 @@
+<a-marker preset="hiro">
+
+    <a-entity
+        id="modelRoot"
+        position="0 0 0"
+        rotation="0 0 0"
+        scale="0.35 0.35 0.35">
+
+        <!-- ================================= -->
+        <!-- BASE OF THE SOLAR PANEL STRUCTURE -->
+        <!-- ================================= -->
+
+        <a-box
+            id="base"
+            position="0 0.05 0"
+            width="3.2"
+            height="0.10"
+            depth="2.2"
+            color="#4F565D"
+            roughness="0.8">
+        </a-box>
+
+
+        <!-- ====================== -->
+        <!-- LEFT AND RIGHT SUPPORT -->
+        <!-- ====================== -->
+
+        <!-- Left vertical post -->
+
+        <a-box
+            id="leftPost"
+            position="-0.90 0.75 0"
+            width="0.16"
+            height="1.40"
+            depth="0.16"
+            color="#AEB4BA"
+            metalness="0.5"
+            roughness="0.5">
+        </a-box>
+
+        <!-- Right vertical post -->
+
+        <a-box
+            id="rightPost"
+            position="0.90 0.75 0"
+            width="0.16"
+            height="1.40"
+            depth="0.16"
+            color="#AEB4BA"
+            metalness="0.5"
+            roughness="0.5">
+        </a-box>
+
+
+        <!-- ================= -->
+        <!-- SUPPORT CROSS BAR -->
+        <!-- ================= -->
+
+        <a-box
+            id="crossBar"
+            position="0 1.42 0"
+            width="2.10"
+            height="0.14"
+            depth="0.14"
+            color="#8A9198"
+            metalness="0.5"
+            roughness="0.5">
+        </a-box>
+
+
+        <!-- ========================= -->
+        <!-- LEFT AND RIGHT TILT RAILS -->
+        <!-- ========================= -->
+
+        <a-box
+            id="leftTiltRail"
+            position="-0.90 1.48 0"
+            rotation="-25 0 0"
+            width="0.12"
+            height="0.12"
+            depth="1.55"
+            color="#8A9198"
+            metalness="0.5">
+        </a-box>
+
+        <a-box
+            id="rightTiltRail"
+            position="0.90 1.48 0"
+            rotation="-25 0 0"
+            width="0.12"
+            height="0.12"
+            depth="1.55"
+            color="#8A9198"
+            metalness="0.5">
+        </a-box>
+
+
+        <!-- ===================================== -->
+        <!-- COMPLETE TILTED SOLAR PANEL ASSEMBLY -->
+        <!-- ===================================== -->
+
+        <a-entity
+            id="panelAssembly"
+            position="0 1.60 0"
+            rotation="-25 0 0">
+
+            <!-- Black panel frame -->
+
+            <a-box
+                id="panelFrame"
+                position="0 0 0"
+                width="2.80"
+                height="0.14"
+                depth="1.70"
+                color="#20252A"
+                metalness="0.4"
+                roughness="0.6">
+            </a-box>
+
+            <!-- Blue panel surface -->
+
+            <a-box
+                id="panelSurface"
+                position="0 0.09 0"
+                width="2.65"
+                height="0.06"
+                depth="1.55"
+                color="#123A63"
+                metalness="0.3"
+                roughness="0.4">
+            </a-box>
+
+
+            <!-- ======================= -->
+            <!-- ROW 1 OF SOLAR CELLS    -->
+            <!-- ======================= -->
+
+            <a-box
+                position="-0.98 0.135 -0.50"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1674B8">
+            </a-box>
+
+            <a-box
+                position="-0.33 0.135 -0.50"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1674B8">
+            </a-box>
+
+            <a-box
+                position="0.33 0.135 -0.50"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1674B8">
+            </a-box>
+
+            <a-box
+                position="0.98 0.135 -0.50"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1674B8">
+            </a-box>
+
+
+            <!-- ======================= -->
+            <!-- ROW 2 OF SOLAR CELLS    -->
+            <!-- ======================= -->
+
+            <a-box
+                position="-0.98 0.135 0"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1B82C5">
+            </a-box>
+
+            <a-box
+                position="-0.33 0.135 0"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1B82C5">
+            </a-box>
+
+            <a-box
+                position="0.33 0.135 0"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1B82C5">
+            </a-box>
+
+            <a-box
+                position="0.98 0.135 0"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1B82C5">
+            </a-box>
+
+
+            <!-- ======================= -->
+            <!-- ROW 3 OF SOLAR CELLS    -->
+            <!-- ======================= -->
+
+            <a-box
+                position="-0.98 0.135 0.50"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1674B8">
+            </a-box>
+
+            <a-box
+                position="-0.33 0.135 0.50"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1674B8">
+            </a-box>
+
+            <a-box
+                position="0.33 0.135 0.50"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1674B8">
+            </a-box>
+
+            <a-box
+                position="0.98 0.135 0.50"
+                width="0.55"
+                height="0.025"
+                depth="0.42"
+                color="#1674B8">
+            </a-box>
+
+        </a-entity>
+
+
+        <!-- =================== -->
+        <!-- FRONT IDENTIFICATION -->
+        <!-- =================== -->
+
+        <a-text
+            value="SOLAR PANEL"
+            position="0 0.15 1.12"
+            rotation="-90 0 0"
+            align="center"
+            color="#FFFFFF"
+            width="3">
+        </a-text>
+
+    </a-entity>
+
+</a-marker>
